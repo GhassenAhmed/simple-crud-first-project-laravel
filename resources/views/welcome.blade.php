@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Simple CRUD</title>
 </head>
 <style>
@@ -16,5 +17,6 @@
 </style>
 <body>
     <h2>Simple CRUD </h2>
+    <button class="btn btn-success">test</button>
 </body>
 </html>
