@@ -20,7 +20,8 @@
 </style>
 <body>
     <div class="container mt-5">
-        <h2>Simple CRUD </h2>
+         <h2>Simple CRUD </h2>
+        
     </div>
     
     
