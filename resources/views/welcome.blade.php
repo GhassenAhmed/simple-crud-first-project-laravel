@@ -8,15 +8,21 @@
     <title>Simple CRUD</title>
 </head>
 <style>
+    body{
+        background: #E3F6FF;
+    }
     h2{
         color: #13005A;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
+        font-size: 50px;
         text-align: center;
     }
 </style>
 <body>
-    <h2>Simple CRUD </h2>
-    <button class="btn btn-success">test</button>
+    <div class="container mt-5">
+        <h2>Simple CRUD </h2>
+    </div>
+    
+    
 </body>
 </html>
