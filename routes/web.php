@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::resource("/personnes",PersonneController::class);
+

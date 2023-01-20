@@ -35,9 +35,11 @@ class PersonneController extends Controller
      */
     public function store(Request $request)
     {
-        $input=$request->all();
-        Personne::create($input);
-        
+        $personne=new Personne();
+        $personne->nom=$request->input('nom');
+        $personne->prenom=$request->input('prenom');
+        $personne->telephone=$request->input('telephone');
+        $personne->save();
         return redirect('/personnes');
     }
 
