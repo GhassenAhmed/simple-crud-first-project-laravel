@@ -53,7 +53,7 @@
     font-size: 50px;
 }
 button{
-    width: 70px;
+    width: 100px;
 }
 </style>
 <body>
@@ -62,15 +62,15 @@ button{
         <h2 >Add New Person</h2>
 
         
-                <form action="">
+                <form action="{{url('/personnes')}}" method="post">
                     <div class="inputs d-flex flex-column mt-5 py-5">
                         <label for="" class="py-3">First Name </label>
-                        <input placeholder="Username" type="text" class="input py-3" required="">
+                        <input placeholder="Username" type="text" class="input py-3" required="" name="nom">
                         <label for="" class="py-3">Last Name </label>
-                        <input placeholder="Username" type="text" class="input py-3" required="">
+                        <input placeholder="Username" type="text" class="input py-3" required="" name="prenom">
                         <label for="" class="py-3">Phone </label> 
-                        <input placeholder="Username" type="text" class="input py-3" required="">
-                        <button type="submit" class="btn btn-success mt-4">Add</button>
+                        <input placeholder="Username" type="text" class="input py-3" required="" name="telephone">
+                        <button type="submit"  class="btn btn-success mt-4" >Add</button>
                     </div>
                 </form>
                 
