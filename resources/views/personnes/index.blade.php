@@ -40,9 +40,9 @@
                     <td>{{$pers->prenom}}</td>
                     <td>{{$pers->telephone}}</td>
                     <td>
-                        <button class="btn btn-success">Add</button>
-                        <button class="btn btn-info">Show</button>
-                        <button class="btn btn-danger">Delete</button>
+                        <a href="" class="btn btn-success">Add</a>
+                        <a class="btn btn-info">Show</a>
+                        <a class="btn btn-danger">Delete</a>
                     </td>
                   </tr>
                 @endforeach
