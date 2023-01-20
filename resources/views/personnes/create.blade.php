@@ -21,6 +21,9 @@
     
 </style>
 <body>
-    <h2>Add New Person</h2>
+    <div class="container mt-5">
+        <h2 >Add New Person</h2>
+    </div>
+    
 </body>
 </html>

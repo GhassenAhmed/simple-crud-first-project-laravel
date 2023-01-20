@@ -40,7 +40,7 @@
                     <td>{{$pers->prenom}}</td>
                     <td>{{$pers->telephone}}</td>
                     <td>
-                        <a href="" class="btn btn-success">Add</a>
+                        <a href="{{url('/personnes/create')}}" class="btn btn-success">Add</a>
                         <a class="btn btn-info">Show</a>
                         <a class="btn btn-danger">Delete</a>
                     </td>
