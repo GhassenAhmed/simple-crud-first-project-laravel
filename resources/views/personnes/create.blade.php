@@ -28,6 +28,7 @@
  background-color: transparent;
  color: #0d0c22;
  transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+ width: 500px;
 }
 
 .input:focus, input:hover {
@@ -50,9 +51,12 @@
     <div class="container mt-5">
         <h2 >Add New Person</h2>
 
-        <div class="inputs">
+        <div class="inputs d-flex flex-column justify-content-center">
+            <label for="">First Name </label>
             <input placeholder="Username" type="text" class="input" required="">
+            <label for="">Last Name </label>
             <input placeholder="Username" type="text" class="input" required="">
+            <label for="">Phone </label> 
             <input placeholder="Username" type="text" class="input" required="">
         </div>
     </div>
