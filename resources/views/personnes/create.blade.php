@@ -46,18 +46,24 @@
  opacity: 0;
  transition: opacity .3s;
 }    
+.inputs{
+    margin-right: 200px;
+}
 </style>
 <body>
     <div class="container mt-5">
         <h2 >Add New Person</h2>
 
-        <div class="inputs d-flex flex-column justify-content-center">
-            <label for="">First Name </label>
-            <input placeholder="Username" type="text" class="input" required="">
-            <label for="">Last Name </label>
-            <input placeholder="Username" type="text" class="input" required="">
-            <label for="">Phone </label> 
-            <input placeholder="Username" type="text" class="input" required="">
+        <div class="inputs d-flex flex-column mt-5 py-5">
+            
+                <label for="" class="py-3">First Name </label>
+                <input placeholder="Username" type="text" class="input py-3" required="">
+                <label for="" class="py-3">Last Name </label>
+                <input placeholder="Username" type="text" class="input py-3" required="">
+                <label for="" class="py-3">Phone </label> 
+                <input placeholder="Username" type="text" class="input py-3" required="">
+            
+            
         </div>
     </div>
     
