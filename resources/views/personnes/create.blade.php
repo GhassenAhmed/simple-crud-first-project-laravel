@@ -52,6 +52,7 @@
 </style>
 <body>
     <div class="container mt-5">
+        <span><i class="bi bi-arrow-left"></i></span>
         <h2 >Add New Person</h2>
 
         <div class="inputs d-flex flex-column mt-5 py-5">
