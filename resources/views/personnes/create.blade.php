@@ -49,23 +49,34 @@
 .inputs{
     margin-right: 200px;
 }
+#icon{
+    font-size: 50px;
+}
+button{
+    width: 70px;
+}
 </style>
 <body>
     <div class="container mt-5">
-        <span><i class="bi bi-arrow-left"></i></span>
+        <span id="icon" class="mt-5"><a href="{{url('/personnes')}}"><i class="bi bi-arrow-left"></i></a> </span>
         <h2 >Add New Person</h2>
 
-        <div class="inputs d-flex flex-column mt-5 py-5">
+        
+                <form action="">
+                    <div class="inputs d-flex flex-column mt-5 py-5">
+                        <label for="" class="py-3">First Name </label>
+                        <input placeholder="Username" type="text" class="input py-3" required="">
+                        <label for="" class="py-3">Last Name </label>
+                        <input placeholder="Username" type="text" class="input py-3" required="">
+                        <label for="" class="py-3">Phone </label> 
+                        <input placeholder="Username" type="text" class="input py-3" required="">
+                        <button type="submit" class="btn btn-success mt-4">Add</button>
+                    </div>
+                </form>
+                
             
-                <label for="" class="py-3">First Name </label>
-                <input placeholder="Username" type="text" class="input py-3" required="">
-                <label for="" class="py-3">Last Name </label>
-                <input placeholder="Username" type="text" class="input py-3" required="">
-                <label for="" class="py-3">Phone </label> 
-                <input placeholder="Username" type="text" class="input py-3" required="">
             
-            
-        </div>
+        
     </div>
     
 </body>
