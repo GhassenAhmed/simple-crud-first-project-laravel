@@ -7,7 +7,20 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Create</title>
 </head>
-<body>
+<style>
     
+    body{
+        background: #E3F6FF;
+    }
+    h2{
+        color: #13005A;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+</style>
+<body>
+    <h2>Add New Person</h2>
 </body>
 </html>
