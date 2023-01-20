@@ -38,7 +38,7 @@ class PersonneController extends Controller
         $input=$request->all();
         Personne::create($input);
         
-        return redirect('personnes');
+        return redirect('/personnes');
     }
 
     /**
