@@ -45,7 +45,7 @@
                     <td>{{$pers->telephone}}</td>
                     <td>
                         
-                        <a class="btn btn-info" href="{{url('/personnes/show')}}">Show</a>
+                        <a class="btn btn-info" href="/personnes/{{$pers->id}}">Show</a>
                         <a class="btn btn-danger">Delete</a>
                     </td>
                   </tr>

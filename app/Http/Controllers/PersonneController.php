@@ -51,7 +51,8 @@ class PersonneController extends Controller
      */
     public function show($id)
     {
-        //
+        $personne=Personne::findOrFail($id);
+        return view('personnes.show',compact('personne'));
     }
 
     /**
@@ -61,10 +62,9 @@ class PersonneController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
+    
     {
-        return view('personnes.show', [
-            'personne' => Personne::findOrFail($id)
-        ]);
+       
     }
 
     /**
