@@ -46,7 +46,7 @@
                     <td>
                         
                         <a class="btn btn-info" href="/personnes/{{$pers->id}}">Show</a>
-                        <a class="btn btn-danger">Delete</a>
+                        <a class="btn btn-danger" href="/personnes/{{$pers->id}}">Delete</a>
                     </td>
                   </tr>
                 @endforeach
