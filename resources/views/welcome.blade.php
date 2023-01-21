@@ -21,7 +21,8 @@
 <body>
     <div class="container mt-5">
          <h2>Simple CRUD </h2>
-            <a href="{{url('/personnes')}}">index</a>
+         <h5>Go index</h5>
+         <a href="{{url('/personnes')}}" class="btn btn-info">index</a>
     </div>
     
     

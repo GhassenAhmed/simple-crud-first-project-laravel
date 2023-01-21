@@ -62,7 +62,9 @@ class PersonneController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('personnes.show', [
+            'personne' => Personne::findOrFail($id)
+        ]);
     }
 
     /**

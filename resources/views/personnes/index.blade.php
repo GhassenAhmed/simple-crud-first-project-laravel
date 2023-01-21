@@ -17,10 +17,14 @@
         font-size: 50px;
         text-align: center;
     }
+    #icon{
+    font-size: 50px;
+}
 </style>
 <body>
     <div class="container mt-5">
          <h2>Simple CRUD </h2>
+         <span id="icon" class="mt-5"><a href="{{url('/')}}"><i class="bi bi-arrow-left"></i></a> </span>
          <a href="{{url('/personnes/create')}}" class="btn btn-success float-end">Add</a>
          <table class="table mt-5">
             <thead>
@@ -41,7 +45,7 @@
                     <td>{{$pers->telephone}}</td>
                     <td>
                         
-                        <a class="btn btn-info">Show</a>
+                        <a class="btn btn-info" href="{{url('/personnes/show')}}">Show</a>
                         <a class="btn btn-danger">Delete</a>
                     </td>
                   </tr>
