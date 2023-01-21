@@ -83,7 +83,7 @@ class PersonneController extends Controller
         $personne->prenom=$request->prenom;
         $personne->telephone=$request->telephone;
         $personne->save();
-        return;
+        return redirect('/personnes');
     }
 
     /**

@@ -62,7 +62,7 @@ button{
         <h2 >Edit Person</h2>
 
         
-                <form action="" method="POST">
+                <form action="{{url('personnes')}}" method="post">
                      {{ csrf_field() }}
                     <div class="inputs d-flex flex-column mt-5 py-5">
                         <label for="" class="py-3">First Name </label>
