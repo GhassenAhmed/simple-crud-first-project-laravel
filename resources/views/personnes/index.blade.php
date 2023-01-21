@@ -21,7 +21,7 @@
 <body>
     <div class="container mt-5">
          <h2>Simple CRUD </h2>
-           
+         <a href="{{url('/personnes/create')}}" class="btn btn-success float-end">Add</a>
          <table class="table mt-5">
             <thead>
               <tr>
@@ -40,7 +40,7 @@
                     <td>{{$pers->prenom}}</td>
                     <td>{{$pers->telephone}}</td>
                     <td>
-                        <a href="{{url('/personnes/create')}}" class="btn btn-success">Add</a>
+                        
                         <a class="btn btn-info">Show</a>
                         <a class="btn btn-danger">Delete</a>
                     </td>

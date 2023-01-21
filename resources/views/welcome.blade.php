@@ -21,7 +21,7 @@
 <body>
     <div class="container mt-5">
          <h2>Simple CRUD </h2>
-        
+            <a href="{{url('/personnes')}}">index</a>
     </div>
     
     
