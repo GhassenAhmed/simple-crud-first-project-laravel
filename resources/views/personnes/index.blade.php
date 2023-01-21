@@ -47,6 +47,7 @@
                         
                         <a class="btn btn-info" href="/personnes/{{$pers->id}}">Show</a>
                         <a class="btn btn-danger" href={{"delete/".$pers->id}}>Delete</a>
+                        <a class="btn btn-danger" href={{"edit/".$pers->id}}>Update</a>
                     </td>
                   </tr>
                 @endforeach
