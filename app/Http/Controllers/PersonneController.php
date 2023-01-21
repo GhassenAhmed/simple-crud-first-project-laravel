@@ -87,8 +87,8 @@ class PersonneController extends Controller
      */
     public function destroy($id)
     {
-        $personne=Personne::fin($id);
+        $personne=Personne::find($id);
         $personne->delete();
-        
+        return redirect('/personnes');
     }
 }

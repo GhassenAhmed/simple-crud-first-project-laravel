@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::resource("/personnes",PersonneController::class);
 
-Route::get('/personnes/{id}',[PersonneController::class,'show']);
+//Route::get('/personnes/{id}',[PersonneController::class,'show']);
 
-Route::Delete('/personnes/{id}',[PersonneController::class,'destroy']);
+Route::get('delete/{id}',[PersonneController::class,'destroy']);
