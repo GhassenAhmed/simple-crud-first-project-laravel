@@ -50,7 +50,7 @@
                         <td>{{$personne->telephone}}</td>
                         <td>
                             <a class="btn btn-danger">Delete</a>
-                            <a class="btn btn-danger" href={{"edit/".$pers->id}}>Update</a>
+                            <a class="btn btn-warning" href={{"edit/".$personne->id}}>Update</a>
                         </td>
                       </tr>
                    

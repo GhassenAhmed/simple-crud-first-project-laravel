@@ -64,6 +64,8 @@ class PersonneController extends Controller
     public function edit($id)
     
     {
+        $data=Personne::findOrFail($id);
+        return view('personnes.edit',compact('data'));
        
     }
 
@@ -76,7 +78,12 @@ class PersonneController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $personne=Personne::find($id);
+        $personne->nom=$request->nom;
+        $personne->prenom=$request->prenom;
+        $personne->telephone=$request->telephone;
+        $personne->save();
+        return;
     }
 
     /**
